@@ -1,8 +1,7 @@
-package org.a3gca.carriercheck;
+package com.yourpackagename;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.util.Log;
 
 /**
  * Created by Aarif on 4/19/2016.
