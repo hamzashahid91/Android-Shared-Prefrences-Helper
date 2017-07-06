@@ -13,7 +13,6 @@ public class MyPrefrences {
 
     public MyPrefrences(Context context)
     {
-        Log.e("package","package name = "+context.getPackageName());
         preferences=context.getSharedPreferences(context.getPackageName(),0);
         editor=preferences.edit();
     }
@@ -35,8 +34,6 @@ public class MyPrefrences {
      *
      */
     public void setString(String prefName,String val) {
-
-        Log.e("setstring","Str name = "+prefName+" Str val= "+val);
         editor.putString(prefName, val).commit();
     }
     /**
